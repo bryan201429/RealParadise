@@ -3,7 +3,8 @@ import { useEffect,useState } from 'react'
 import Principal from '../../assets/Principal.jpg'
 import Pool from '../../assets/Pool.jpg'
 import Pool2 from '../../assets/Pool2.jpg'
-
+import Snack from '../../assets/Snack.webp'
+import Garage from '../../assets/Garagee.jpg'
 
 export default function Home(){
 
@@ -38,7 +39,7 @@ export default function Home(){
         })
        
         prev.addEventListener('click',()=>{
-            active = active + 1 <= lengthItems ? active + 1 : 0;
+            active = active - 1 <= lengthItems ? active - 1 : 0;
             reloadSlider();
         })
         dots.forEach((li, key) => {
@@ -55,35 +56,46 @@ export default function Home(){
     return(
         <div id='HomeContainer'>
            <div className="slider">
-        <div className="list">
-            <div className="item">
-                <img src={Principal} alt=""/>
+                <div className="list">
+                    <div className="item">
+                        <div className='slideInfo'>PISCINA TEMPERADA</div>
+                        <img src={Principal} alt=""/>
+                    </div>
+                    <div className="item">
+                        <div className='slideInfo'>JACUZZI</div>
+                        <img src={Pool} alt=""/>
+                    </div>
+                    <div className="item">
+                        <div className='slideInfo'>PISCINA PARA NIÑOS</div>
+                        <img src={Pool2} alt=""/>
+                    </div>
+                    <div className="item">
+                        <div className='slideInfo'>CAMARAS DE VAPOR/SECO</div>
+                        <img src={Principal} alt=""/>
+                    </div>
+                    <div className="item">
+                        <div className='slideInfo'>ESTACIONAMIENTO</div>
+                        <img src={Garage} alt=""/>
+                    </div>
+                    <div className="item">
+                        <div className='slideInfo'>SNACK</div>
+                        <img src={Snack} alt=""/>
+                    </div>
+                </div>
+                <div className="buttons">
+                    <button id="prev">{'<'}</button>
+                    <button id="next">{'>'}</button>
+                </div>
+                <ul className="dots">
+                    <li className="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
-            <div className="item">
-                <img src={Pool} alt=""/>
-            </div>
-            <div className="item">
-                <img src={Pool2} alt=""/>
-            </div>
-            <div className="item">
-                <img src={Principal} alt=""/>
-            </div>
-            <div className="item">
-                <img src={Pool} alt=""/>
-            </div>
-        </div>
-        <div className="buttons">
-            <button id="prev">{'<'}</button>
-            <button id="next">{'>'}</button>
-        </div>
-        <ul className="dots">
-            <li className="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
+            <div className='box'></div>
         </div>
     )
 }
