@@ -1,0 +1,87 @@
+#DetailBoxContainer{
+    width: 100vw;
+    height: 75vh;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.linea-horizontal {
+    height: 5px;
+    background-color: rgba(0,111,203,0.8);
+    width: 42vw;
+    margin-right: 50%;
+    border-radius: 10px;
+}
+#Servicios{
+    height: 55vh;
+    width: 50vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-weight: bold;
+    padding-left: 4%;
+    padding-top: 1%;
+    box-sizing: border-box;
+    
+}
+#Servicios h1,h2{
+    padding: 0;
+    margin: 0;
+}
+#Horarios{
+    height: 55vh;
+    width: 35vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+#Horarios h1{
+    padding: 0;
+    margin: 0;
+    }
+.linea-horizontal2 {
+    height: 5px;
+    background-color: rgba(0,111,203,0.8);
+
+    width: 27vw;
+    margin-right: 50%;
+    border-radius: 10px;
+}
+.horariosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.horariosDias{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: fit-content;
+    font-size: 1vw;
+}
+.horariosHoras{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    width: fit-content;
+
+    font-size: 1vw;
+}

@@ -15,8 +15,7 @@
 .slider{
     width: 100%;
     margin-top: 0;
-    height: 80vh;
-
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -40,9 +39,9 @@
     position: absolute;
     background-color: rgba(10, 10, 10, 0.6);
     backdrop-filter: blur(15px);
-    height: 15vh;
+    height: 20vh;
     width: 100vw;
-    top:65vh;
+    top:80vh;
     z-index: 1;
     display: flex;
     font-size: 6vh;
@@ -54,8 +53,8 @@
 .slider .buttons{
     position: absolute;
     top: 30vh;
-    left: 1%;
-    width: 98%;
+    left: 0%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -63,8 +62,9 @@
 .slider .buttons button{
     width: 50px;
     height: 250px;
-    border-radius: 5px;
-    background-color: rgba(200, 200, 200, 0.7);
+    border-radius: 0 10px 10px 0;
+    background-color: rgba(230, 230, 230, 0.5);
+    backdrop-filter: blur(10px);
     color: black;
     font-weight: bold;
     font-size: 35px;
@@ -73,6 +73,9 @@
     font-family: monospace;
     font-weight: bold;
     cursor: pointer;
+}
+.buttons #next{
+    border-radius: 10px 0 0 10px;
 }
 .buttons button:hover{
     background-color: rgba(250,250,250,0.9);

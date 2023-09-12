@@ -5,6 +5,12 @@ import Pool from '../../assets/Pool.jpg'
 import Pool2 from '../../assets/Pool2.jpg'
 import Snack from '../../assets/Snack.webp'
 import Garage from '../../assets/Garagee.jpg'
+import Masajes from '../../assets/Masajes.webp'
+import DetailBox from '../../components/detailBox/detailBox'
+import MapsInfo from '../../components/mapsInfo/mapsInfo'
+import Footer from '../../components/Footer/Footer'
+
+
 
 export default function Home(){
 
@@ -19,7 +25,7 @@ export default function Home(){
         
         let lengthItems = items.length - 1;
         let active = 0;
-        let refreshInterval=setInterval(()=> {next.click()}, 5000);
+        let refreshInterval=setInterval(()=> {next.click()}, 3500);
         reloadSlider()
 
         function reloadSlider(){
@@ -30,7 +36,7 @@ export default function Home(){
             last_active_dot.classList.remove('active');
             dots[active].classList.add('active');
             clearInterval(refreshInterval);
-            refreshInterval = setInterval(()=> {next.click()}, 5000);            
+            refreshInterval = setInterval(()=> {next.click()}, 3500 );            
         }
 
         next.addEventListener('click',()=>{
@@ -81,6 +87,10 @@ export default function Home(){
                         <div className='slideInfo'>SNACK</div>
                         <img src={Snack} alt=""/>
                     </div>
+                    <div className="item">
+                        <div className='slideInfo'>MASAJES</div>
+                        <img src={Masajes} alt=""/>
+                    </div>
                 </div>
                 <div className="buttons">
                     <button id="prev">{'<'}</button>
@@ -93,9 +103,12 @@ export default function Home(){
                     <li></li>
                     <li></li>
                     <li></li>
+                    <li></li>
                 </ul>
             </div>
-            <div className='box'></div>
+            <DetailBox></DetailBox>
+            <MapsInfo></MapsInfo>
+            <Footer></Footer>
         </div>
     )
 }
