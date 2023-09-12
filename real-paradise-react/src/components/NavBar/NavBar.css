@@ -1,11 +1,12 @@
 #NavContainer{
     background-color: rgba(0,111,203,0.8);
     width: 100vw;
-    height: 12vh;
+    height: 10vh;
     margin: 0;
     display: flex;
     position: fixed;
     backdrop-filter: blur(5px);
+    z-index: 1;
 }
 #Logo{
     height: 100%;

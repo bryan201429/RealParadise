@@ -5,7 +5,7 @@ import NavBar from './components/NavBar/NavBar'
 import {Route,Routes,useLocation} from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
