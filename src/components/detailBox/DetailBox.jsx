@@ -3,10 +3,10 @@ import './DetailBox.css'
 export default function DetailBox(){
 
     return(
-        <div id='DetailBoxContainer'>
+        <div id='DetailBoxContainer' className='DetailBoxContainer'>
             <div id='Servicios'>
                 <h1>Servicios:</h1>
-                <hr class="linea-horizontal"></hr>
+                <hr className="linea-horizontal"></hr>
                 <h2>Cámaras de vapor</h2>
                 <h2>Cámaras de Seco</h2>
                 <h2>Piscina Temperada</h2>
@@ -18,7 +18,7 @@ export default function DetailBox(){
             </div>
             <div id='Horarios'>
                 <h1>Horarios:</h1>
-                <hr class="linea-horizontal2"></hr>
+                <hr className="linea-horizontal2"></hr>
                 <div className='horariosContainer'>
                     <div className='horariosDias'>
                         <h2>Lunes</h2>

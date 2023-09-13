@@ -1,5 +1,5 @@
 import './Home.css'
-import { useEffect,useState } from 'react'
+import { useEffect,useState,useRef } from 'react'
 import Principal from '../../assets/Principal.jpg'
 import Pool from '../../assets/Pool.jpg'
 import Pool2 from '../../assets/Pool2.jpg'
@@ -9,12 +9,10 @@ import Masajes from '../../assets/Masajes.webp'
 import DetailBox from '../../components/detailBox/DetailBox'
 import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
-
-
+import NavBar from '../../components/NavBar/NavBar'
 
 export default function Home(){
-
-
+    
     useEffect(()=>{
 
         let slider = document.querySelector('.slider .list');
@@ -61,6 +59,7 @@ export default function Home(){
 
     return(
         <div id='HomeContainer'>
+            {/* <NavBar></NavBar> */}
            <div className="slider">
                 <div className="list">
                     <div className="item">
@@ -106,9 +105,10 @@ export default function Home(){
                     <li></li>
                 </ul>
             </div>
-            <DetailBox></DetailBox>
+            <DetailBox ></DetailBox>
             <MapsInfo></MapsInfo>
-            <Footer></Footer>
+            <Footer id='Footer'></Footer>
+            <div id='test'></div>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import githubLogo from '../../assets/GithubLogoWhite.png'
 
 export default function Footer(){
     return(
-        <div id='Container'>
+        <div id='footer' className='footer'>
             <div id='logoBar'><img src={realBlack} className='logoBlack'></img></div>
             <div id='info'>
 

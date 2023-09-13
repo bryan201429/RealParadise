@@ -3,6 +3,7 @@
     width: 100vw;
     height: 10vh;
     margin: 0;
+    padding: 0;
     display: flex;
     position: fixed;
     backdrop-filter: blur(5px);
@@ -11,4 +12,14 @@
 #Logo{
     height: 100%;
     width: auto;
+}
+.NavComponent{
+    height: 100%;
+    width: 10%;
+    /* background-color: black; */
+    border-left: solid 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

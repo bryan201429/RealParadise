@@ -12,8 +12,6 @@ function App() {
     <NavBar></NavBar>
     <Routes>
       <Route path='/' element={<Home/>}></Route>
-      
-
     </Routes>
     
       
