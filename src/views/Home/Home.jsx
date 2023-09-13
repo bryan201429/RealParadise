@@ -6,8 +6,8 @@ import Pool2 from '../../assets/Pool2.jpg'
 import Snack from '../../assets/Snack.webp'
 import Garage from '../../assets/Garagee.jpg'
 import Masajes from '../../assets/Masajes.webp'
-import DetailBox from '../../components/detailBox/detailBox'
-import MapsInfo from '../../components/mapsInfo/mapsInfo'
+import DetailBox from '../../components/detailBox/DetailBox'
+import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
 
 
