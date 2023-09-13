@@ -1,11 +1,11 @@
 import './Footer.css'
-import logoBlack from '../../assets/logoBlack.png'
+import realBlack from '../../assets/lB.png'
 import githubLogo from '../../assets/GithubLogoWhite.png'
 
 export default function Footer(){
     return(
         <div id='Container'>
-            <div id='logoBar'><img src={logoBlack} className='logoBlack'></img></div>
+            <div id='logoBar'><img src={realBlack} className='logoBlack'></img></div>
             <div id='info'>
 
                 <div id='Copyright'>2023 Sauna Spa Real Paradise</div>
