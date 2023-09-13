@@ -1,6 +1,6 @@
 import './Footer.css'
 import logoBlack from '../../assets/logoBlack.png'
-import githubLogo from '../../assets/githubLogoWhite.png'
+import githubLogo from '../../assets/GithubLogoWhite.png'
 
 export default function Footer(){
     return(
