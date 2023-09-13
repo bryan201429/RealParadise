@@ -1,5 +1,4 @@
 import './Footer.css'
-import logoBlack from '../../assets/logoBlack.png'
 
 export default function Footer(){
     return(
