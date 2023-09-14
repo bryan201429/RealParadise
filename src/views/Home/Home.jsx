@@ -10,26 +10,15 @@ import DetailBox from '../../components/detailBox/DetailBox'
 import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
 import {scroll} from 'react-scroll'
-// import NavBar from '../../components/NavBar/NavBar'
+import { useLocation } from 'react-router-dom'
 
 export default function Home(){
-    
+    const location = useLocation();
     useEffect(()=>{
         
-        const itemToScroll=localStorage.getItem('itemToScroll')
+        const itemToScroll=sessionStorage.getItem('itemToScroll')
         const elementToScroll = document.getElementById(itemToScroll);
 
-        if(itemToScroll){
-            
-            elementToScroll.scrollIntoView({
-                behavior: 'smooth', // Agrega desplazamiento suave
-                block: 'start',     // Desplaza el elemento al principio de la ventana
-              });
-              localStorage.setItem('itemToScroll','');
-        }
-        
-
-        
         let slider = document.querySelector('.slider .list');
         let items = document.querySelectorAll('.slider .list .item');
         let next = document.getElementById('next');
@@ -39,8 +28,8 @@ export default function Home(){
         let lengthItems = items.length - 1;
         let active = 0;
         let refreshInterval=setInterval(()=> {next.click()}, 3500);
-        reloadSlider()
-
+        reloadSlider();
+    
         function reloadSlider(){
             
             slider.style.left = -items[active].offsetLeft + 'px';
@@ -51,7 +40,15 @@ export default function Home(){
             clearInterval(refreshInterval);
             refreshInterval = setInterval(()=> {next.click()}, 3500 );            
         }
-
+        if(itemToScroll){
+            reloadSlider();
+            elementToScroll.scrollIntoView({
+                behavior: 'smooth', // Agrega desplazamiento suave
+                block: 'center',     // Desplaza el elemento al principio de la ventana
+              });
+              sessionStorage.setItem('itemToScroll','');
+        }
+        
         next.addEventListener('click',()=>{
             active = active + 1 <= lengthItems ? active + 1 : 0;
             reloadSlider();
@@ -68,13 +65,13 @@ export default function Home(){
             })
         })
         window.onresize = function() {
-            reloadSlider();
-        };
-    },[])
+                reloadSlider();
+            };
+
+    },[location.pathname])
 
     return(
         <div id='HomeContainer'>
-            {/* <NavBar></NavBar> */}
            <div className="slider">
                 <div className="list">
                     <div className="item">
@@ -120,7 +117,7 @@ export default function Home(){
                     <li></li>
                 </ul>
             </div>
-            <DetailBox ></DetailBox>
+            <DetailBox></DetailBox>
             <MapsInfo></MapsInfo>
             <Footer></Footer>
         </div>
