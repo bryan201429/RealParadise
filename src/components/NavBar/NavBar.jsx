@@ -7,11 +7,10 @@ export default function NavBar(){
     return(
         <div id='NavContainer'>
             <img src={Logo} id='Logo'></img>
-            <a >Contacto</a>
-            <Link className='NavComponent' to='test' spy={true} smooth={true} offset={50} duration={500} onClick={console.log('clickScroll')}> Test</Link>
-
-            <div >Ubicación</div>
-            <div >Servicios</div>
+            <div className='NavComponent'><Link to='DetailBoxContainer' className='NavComponentLink' spy={true} smooth={true} offset={-200} duration={500} onClick={console.log('clickScroll')}> Horario de atención</Link></div>
+            <div className='NavComponent'><Link to='MapsContainer' className='NavComponentLink' spy={true} smooth={true} offset={-200} duration={500} onClick={console.log('clickScroll')}> Contacto</Link></div>
+            <div className='NavComponent'><Link to='MapsContainer' className='NavComponentLink' spy={true} smooth={true} offset={-200} duration={500} onClick={console.log('clickScroll')}> Ubicación</Link></div>
+            <div className='NavComponent'><Link  to='footer' className='NavComponentLink' spy={true} smooth={true} offset={-200} duration={500} onClick={console.log('clickScroll')}> Servicios</Link></div>
 
         </div>
     )
