@@ -9,12 +9,27 @@ import Masajes from '../../assets/Masajes.webp'
 import DetailBox from '../../components/detailBox/DetailBox'
 import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
+import {scroll} from 'react-scroll'
 // import NavBar from '../../components/NavBar/NavBar'
 
 export default function Home(){
     
     useEffect(()=>{
+        
+        const itemToScroll=localStorage.getItem('itemToScroll')
+        const elementToScroll = document.getElementById(itemToScroll);
 
+        if(itemToScroll){
+            
+            elementToScroll.scrollIntoView({
+                behavior: 'smooth', // Agrega desplazamiento suave
+                block: 'start',     // Desplaza el elemento al principio de la ventana
+              });
+              localStorage.setItem('itemToScroll','');
+        }
+        
+
+        
         let slider = document.querySelector('.slider .list');
         let items = document.querySelectorAll('.slider .list .item');
         let next = document.getElementById('next');
@@ -105,7 +120,7 @@ export default function Home(){
                     <li></li>
                 </ul>
             </div>
-            <DetailBox></DetailBox>
+            <DetailBox ></DetailBox>
             <MapsInfo></MapsInfo>
             <Footer></Footer>
         </div>
