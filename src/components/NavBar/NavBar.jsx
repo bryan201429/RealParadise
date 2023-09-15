@@ -41,7 +41,7 @@ export default function NavBar() {
             <div className={dynamicClass}>
                 <Link to='DetailBoxContainer'
                     className='NavComponentLink' spy={true} smooth={true} offset={-150} duration={500}
-                    onClick={() => scrollToDetailBox('DetailBoxContainer')} > Horario de atención
+                    onClick={() => scrollToDetailBox('DetailBoxContainer')} > Horarios
                 </Link>
             </div>
             <div className={dynamicClass}>
