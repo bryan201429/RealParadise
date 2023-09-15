@@ -3,6 +3,9 @@ import Pool from '../../assets/Pool.jpg'
 import Footer from '../../components/Footer/Footer'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
+import garage from '../../assets/Garagee.jpg'
+import snack from '../../assets/Salchipapa.jpg'
+import masage from '../../assets/Masage.jpg'
 
 export default function ServicesInfo(){
     // const location = useLocation();
@@ -13,7 +16,7 @@ export default function ServicesInfo(){
             // console.log('Este es el elementToScroll:',elementToScroll)
             // reloadSlider();
             elementToScroll.scrollIntoView({
-                behavior: 'smooth', // Agrega desplazamiento suave
+                behavior: 'instant', // Agrega desplazamiento suave
                 block: 'center',     // Desplaza el elemento al principio de la ventana
               });
             //   sessionStorage.setItem('itemToScroll','');
@@ -66,12 +69,12 @@ export default function ServicesInfo(){
                 <div className='serviceInfoD'> 
                     <h1>Masajes</h1>
                 </div>
-                <img className='serviceImgD' src={Pool}></img>
+                <img className='serviceImgD' src={masage}></img>
             </div>
 
 
             <div className='serviceContainer'>
-                <img className='serviceImg'src={Pool}></img>
+                <img className='serviceImg'src={garage}></img>
                 <div className='serviceInfo'> 
                     <h1>Estacionamiento</h1>
                 </div>
@@ -86,7 +89,7 @@ export default function ServicesInfo(){
                         <li>Salchipapas y más</li>
                     </ul>
                 </div>
-                <img className='serviceImgD' src={Pool}></img>
+                <img className='serviceImgD' src={snack}></img>
             </div>
 
 
