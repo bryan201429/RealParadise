@@ -8,9 +8,14 @@ export default function MapsInfo(){
                 <h1 className='Como'>¿Cómo llegar?</h1>
                 <div className='ubicationInfo'>
                     <h1>Ubicación:</h1>
-                    <h2>Av. Dolores 132, Urb. El Carmen, Arequipa, Arequipa</h2>
                     <hr className='line'></hr>
+                    <h2>Av. Dolores 132, Urb. El Carmen, Arequipa, Arequipa</h2>
+
+  
+                </div>
+                <div className='ubicationInfo'>
                     <h1>Teléfono: </h1>
+                    <hr className='line'></hr>
                     <h2> (054)323662</h2>
                 </div>
             </div>
@@ -19,7 +24,7 @@ export default function MapsInfo(){
             style={{ border: "0" }}
             allowfullscreen="true" 
             loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
+            // referrerpolicy="no-referrer-when-downgrade"
             className='map'>
             </iframe>
 
