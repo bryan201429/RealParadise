@@ -67,6 +67,9 @@ export default function Home(){
         window.onresize = function() {
                 reloadSlider();
             };
+    return()=>{
+        clearInterval(refreshInterval);
+    }
 
     },[location.pathname])
 
