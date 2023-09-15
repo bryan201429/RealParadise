@@ -17,7 +17,7 @@ export default function DetailBox(){
                 <h2>Estacionamiento</h2>
             </div>
             <div id='Horarios'>
-                <h1>Horarios:</h1>
+                <h1>Horarios de atención:</h1>
                 <hr className="linea-horizontal2"></hr>
                 <div className='horariosContainer'>
                     <div className='horariosDias'>

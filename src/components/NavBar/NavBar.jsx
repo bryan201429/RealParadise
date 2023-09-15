@@ -8,6 +8,7 @@ export default function NavBar() {
     const navigate = useNavigate();
         
     const [dynamicClass, setDynamicClass] = useState('NavComponent');
+    const [serviceClass,setServiceClass] = useState('NavComponent')
     // const [spyv, setSpyv] = useState(true);
 
     const scrollToDetailBox = (itemToScroll) => {
@@ -20,12 +21,14 @@ export default function NavBar() {
         if (location.pathname=='/Services') {
             console.log(location.pathname);
             setDynamicClass('NavComponentoff');
+            setServiceClass('NavComponent')
             // setSpyv(false);
 
         }
         else{
             console.log(location.pathname);
             setDynamicClass('NavComponent');
+            setServiceClass('NavComponentoff')
             // setSpyv(true);
         }
 
@@ -53,7 +56,7 @@ export default function NavBar() {
                     onClick={() => scrollToDetailBox('MapsContainer')}> Ubicación
                 </Link>
             </div>
-            <div className={dynamicClass}>
+            <div className={serviceClass}>
                 <NavLink to='/Services' className='NavComponentLink' 
                     > Servicios
                 </NavLink>
