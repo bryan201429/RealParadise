@@ -6,15 +6,14 @@ export default function MapsInfo(){
             
             <div className='info'>
                 <h1 className='Como'>¿Cómo llegar?</h1>
+
                 <div className='ubicationInfo'>
-                    <h1 className='h'>Ubicación:</h1>
+                    <h1>Ubicación:</h1>
                     <hr className='line'></hr>
                     <h2>Av. Dolores 132, Urb. El Carmen, Arequipa, Arequipa</h2>
-
-  
                 </div>
                 <div className='ubicationInfo'>
-                    <h1 className='h'>Teléfono: </h1>
+                    <h1>Teléfono: </h1>
                     <hr className='line'></hr>
                     <h2> (054)323662</h2>
                 </div>
