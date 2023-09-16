@@ -30,23 +30,15 @@ export default function ServicesInfo(){
             <div className='serviceContainer'id ='serviceContainer'>
                 <img className='serviceImg'src={Pool}></img>
                 <div className='serviceInfo'> 
-                    <h1>Piscina</h1>
-                    
-                        <h2>Profundidad: 1.70m - 1.50 m</h2>
-                        <h2>Limpieza y desinfección diaria</h2>
-                        <h2>Autorizada por Ministerio de Salud</h2>
-                        <h2>Autorizada por Ministerio de Salud</h2>
-                    
+                    <h1>Piscina temperada</h1>
+
                 </div>
             </div>
 
             <div className='serviceContainer'>
                 <div className='serviceInfoD'> 
                     <h1>Jacuzzi</h1>
-                    
-                        <h2>Hidromasajes</h2>
-                        <h2>Limpieza y desinfección diaria</h2>
-                        <h2>Autorizada por Ministerio de Salud</h2>
+
                     
                 </div>
                 <img className='serviceImgD' src={Pool}></img>
@@ -55,12 +47,10 @@ export default function ServicesInfo(){
             <div className='serviceContainer'>
                 <img className='serviceImg'src={Pool}></img>
                 <div className='serviceInfo'> 
-                    <h1>Piscina de Niños</h1>
+                    <h1>Piscina de niños</h1>
                     
-                        <h2>Profundidad: 0.8    m</h2>
-                        <h2>Limpieza y desinfección diaria</h2>
-                        <h2>Autorizada por Ministerio de Salud</h2>
-                        <h2>Autorizada por Ministerio de Salud</h2>
+                        <h2>Temperada</h2>
+
                     
                 </div>
             </div>
@@ -84,9 +74,9 @@ export default function ServicesInfo(){
                 <div className='serviceInfoD'> 
                     <h1>Snack</h1>
                     
-                        <h2>Jugos</h2>
+                        {/* <h2>Jugos</h2>
                         <h2>Sandwiches</h2>
-                        <h2>Salchipapas y más</h2>
+                        <h2>Salchipapas y más</h2> */}
                     
                 </div>
                 <img className='serviceImgD' src={snack}></img>
