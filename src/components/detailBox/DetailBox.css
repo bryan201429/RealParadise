@@ -28,7 +28,7 @@
     padding-left: 4%;
     padding-top: 1%;
     box-sizing: border-box;
-    font-size: 0.7vw;
+    font-size: 1vw;
     
 }
 #Servicios h1,h2{
@@ -50,7 +50,7 @@
     padding-right: 4%;
     padding-top: 1%;
     box-sizing: border-box;
-    font-size: 0.7vw;
+    font-size: 1vw;
 }
 #Horarios h1{
     padding: 0;
@@ -59,7 +59,6 @@
 .linea-horizontal2 {
     height: 5px;
     background-color: rgba(0,111,203,0.8);
-
     width: 27vw;
     margin-right: 50%;
     border-radius: 10px;
@@ -76,7 +75,7 @@
     justify-content: start;
     align-items: start;
     width: fit-content;
-    font-size: 0.7vw;
+    font-size: 0.9vw;
 }
 .horariosHoras{
     display: flex;
@@ -85,5 +84,5 @@
     align-items: end;
     width: fit-content;
 
-    font-size: 0.7vw; 
+    font-size: 0.9vw; 
 }
