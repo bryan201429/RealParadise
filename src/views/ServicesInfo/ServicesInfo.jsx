@@ -31,23 +31,23 @@ export default function ServicesInfo(){
                 <img className='serviceImg'src={Pool}></img>
                 <div className='serviceInfo'> 
                     <h1>Piscina</h1>
-                    <ul>
-                        <li>Profundidad: 1.70m - 1.50 m</li>
-                        <li>Limpieza y desinfección diaria</li>
-                        <li>Autorizada por Ministerio de Salud</li>
-                        <li>Autorizada por Ministerio de Salud</li>
-                    </ul>
+                    
+                        <h2>Profundidad: 1.70m - 1.50 m</h2>
+                        <h2>Limpieza y desinfección diaria</h2>
+                        <h2>Autorizada por Ministerio de Salud</h2>
+                        <h2>Autorizada por Ministerio de Salud</h2>
+                    
                 </div>
             </div>
 
             <div className='serviceContainer'>
                 <div className='serviceInfoD'> 
                     <h1>Jacuzzi</h1>
-                    <ul>
-                        <li>Hidromasajes</li>
-                        <li>Limpieza y desinfección diaria</li>
-                        <li>Autorizada por Ministerio de Salud</li>
-                    </ul>
+                    
+                        <h2>Hidromasajes</h2>
+                        <h2>Limpieza y desinfección diaria</h2>
+                        <h2>Autorizada por Ministerio de Salud</h2>
+                    
                 </div>
                 <img className='serviceImgD' src={Pool}></img>
             </div>
@@ -56,12 +56,12 @@ export default function ServicesInfo(){
                 <img className='serviceImg'src={Pool}></img>
                 <div className='serviceInfo'> 
                     <h1>Piscina de Niños</h1>
-                    <ul>
-                        <li>Profundidad: 0.8    m</li>
-                        <li>Limpieza y desinfección diaria</li>
-                        <li>Autorizada por Ministerio de Salud</li>
-                        <li>Autorizada por Ministerio de Salud</li>
-                    </ul>
+                    
+                        <h2>Profundidad: 0.8    m</h2>
+                        <h2>Limpieza y desinfección diaria</h2>
+                        <h2>Autorizada por Ministerio de Salud</h2>
+                        <h2>Autorizada por Ministerio de Salud</h2>
+                    
                 </div>
             </div>
 
@@ -83,11 +83,11 @@ export default function ServicesInfo(){
             <div className='serviceContainer'>
                 <div className='serviceInfoD'> 
                     <h1>Snack</h1>
-                    <ul>
-                        <li>Jugos</li>
-                        <li>Sandwiches</li>
-                        <li>Salchipapas y más</li>
-                    </ul>
+                    
+                        <h2>Jugos</h2>
+                        <h2>Sandwiches</h2>
+                        <h2>Salchipapas y más</h2>
+                    
                 </div>
                 <img className='serviceImgD' src={snack}></img>
             </div>
