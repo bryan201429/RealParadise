@@ -71,3 +71,11 @@
 .serviceInfo h2{
     font-size: 2vw;
 }
+
+@media(max-width:1000px){
+    .serviceContainer{
+        width: 90vw;
+        height: 20vh;
+
+    }
+}
