@@ -37,10 +37,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .NavComponent:hover{
-    
     background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(5px);
     color: black;
@@ -96,4 +94,41 @@
     color: white;
     transition: 0.5s;
     text-decoration: none;
+}
+
+@media (max-width:1000px){
+
+    #NavContainer{
+        width: 100vw;
+        height: 6vh;
+        z-index: 3;
+    }
+    #Logo{
+        height: 100%;
+        width: auto;
+        margin-right:auto;
+    }
+    .NavComponent{
+        height: 100%;
+        width: 16%;
+        border-left: solid 2px rgba(255, 255, 255,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 2.9vw;
+        transition: 0.2s;
+    }
+    .NavComponentoff{
+        height: 100%;
+        width: 16%;
+        border-left: solid 2px rgba(255, 255, 255,0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 2.9vw;
+        transition: 0.2s;
+    }
+
 }
