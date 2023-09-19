@@ -110,8 +110,8 @@
     }
     .NavComponent{
         height: 100%;
-        width: 16%;
-        border-left: solid 2px rgba(255, 255, 255,0.5);
+        width: 17%;
+        border-left:  2px rgba(255, 255, 255,0.5);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -121,8 +121,8 @@
     }
     .NavComponentoff{
         height: 100%;
-        width: 16%;
-        border-left: solid 2px rgba(255, 255, 255,0.5);
+        width: 17%;
+        border-left:  2px rgba(255, 255, 255,0.5);
         display: flex;
         align-items: center;
         justify-content: center;
