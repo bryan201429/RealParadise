@@ -62,3 +62,32 @@
     margin: 0;
 }
 
+@media(max-width:1000px){
+    #MapsContainer{
+        height: 80vh;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: space-around;
+        padding-bottom: 4vw;
+    }
+    .Como{
+        font-size: 9vw;
+        padding: 0;
+        margin:0;
+        margin-bottom: 5%;
+    }
+    .map{
+        border-radius: 15px;
+        width: 92vw;
+        height: 80%;
+    }
+    .ubicationInfo{
+        width: 92vw;
+        height: 30%;
+        font-size: 2.3vw;
+        margin: 0;
+    }
+}
