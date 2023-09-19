@@ -35,11 +35,9 @@ export default function ServicesInfo(){
                 </div>
             </div>
 
-            <div className='serviceContainer'>
+            <div className='serviceContainer serviceContainerD'>
                 <div className='serviceInfoD'> 
                     <h1>Jacuzzi</h1>
-
-                    
                 </div>
                 <img className='serviceImgD' src={Pool}></img>
             </div>
@@ -55,7 +53,7 @@ export default function ServicesInfo(){
                 </div>
             </div>
 
-            <div className='serviceContainer'>
+            <div className='serviceContainer serviceContainerD'>
                 <div className='serviceInfoD'> 
                     <h1>Masajes</h1>
                 </div>
@@ -70,14 +68,9 @@ export default function ServicesInfo(){
                 </div>
             </div>
 
-            <div className='serviceContainer'>
+            <div className='serviceContainer serviceContainerD'>
                 <div className='serviceInfoD'> 
                     <h1>Snack</h1>
-                    
-                        {/* <h2>Jugos</h2>
-                        <h2>Sandwiches</h2>
-                        <h2>Salchipapas y más</h2> */}
-                    
                 </div>
                 <img className='serviceImgD' src={snack}></img>
             </div>

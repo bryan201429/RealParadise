@@ -53,7 +53,6 @@
     margin-top: 0;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
     color: black;
-    /* font-size: 150%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,9 +72,70 @@
 }
 
 @media(max-width:1000px){
+    #ServicesInfo{
+        padding-top: 10vh;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
     .serviceContainer{
-        width: 90vw;
-        height: 20vh;
+        width: 95vw;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2vw;
+    }
 
+    .serviceContainerD{
+        width: 95vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .serviceInfo{
+        border-radius: 0 10px 10px 0;
+        width: 90%;
+        height: 15%;
+        margin-top: 0;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+        color: rgb(30, 30, 30);
+        font-size: 150%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .serviceImg{
+        width: 90%;
+        height: 90%;
+        border-radius: 10px 0 0 10px;
+        margin-left: 0;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+    }
+    .serviceInfoD{
+        border-radius: 10px 0 0 10px;
+        width: 40%;
+        height: 90%;
+        margin-top: 0;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .serviceImgD{
+        width: 60%;
+        height: 90%;
+        border-radius: 0 10px 10px 0;
+        margin-left: 0;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
     }
 }
