@@ -73,7 +73,7 @@
 
 @media(max-width:1000px){
     #ServicesInfo{
-        padding-top: 10vh;
+        padding-top: 8vh;
         margin-top: 0;
         display: flex;
         flex-direction: column;
@@ -81,8 +81,8 @@
         justify-content: space-between;
     }
     .serviceContainer{
-        width: 95vw;
-        height: 35vh;
+        width: 96vw;
+        height: 40vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -91,7 +91,7 @@
     }
 
     .serviceContainerD{
-        width: 95vw;
+        width: 96vw;
         height: 40vh;
         display: flex;
         flex-direction: column-reverse;
@@ -99,13 +99,12 @@
         justify-content: center;
     }
     .serviceInfo{
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 0 10px 10px ;
         width: 90%;
         height: 15%;
         margin-top: 0;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
         color: rgb(30, 30, 30);
-        font-size: 150%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -115,14 +114,14 @@
     .serviceImg{
         width: 90%;
         height: 90%;
-        border-radius: 10px 0 0 10px;
+        border-radius: 10px 10px 0 0;
         margin-left: 0;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
     }
     .serviceInfoD{
-        border-radius: 10px 0 0 10px;
-        width: 40%;
-        height: 90%;
+        border-radius: 0 0 10px 10px;
+        width: 90%;
+        height: 15%;
         margin-top: 0;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
         color: black;
@@ -132,10 +131,22 @@
         justify-content: center;
     }
     .serviceImgD{
-        width: 60%;
+        width: 90%;
         height: 90%;
-        border-radius: 0 10px 10px 0;
+        border-radius: 10px 10px 0 0;
         margin-left: 0;
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+    }
+    .serviceInfoD h1{
+        font-size: 7.5vw;
+    }
+    .serviceInfoD h2{
+        font-size: 2vw;
+    }
+    .serviceInfo h1{
+        font-size: 7.5vw;
+    }
+    .serviceInfo h2{
+        display: none;
     }
 }
