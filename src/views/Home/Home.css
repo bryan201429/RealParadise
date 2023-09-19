@@ -121,8 +121,32 @@
     padding: 0;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 1000px){
     .slider{
-        height: 400px;
+        height: 100vw;
     }
+    .slider .buttons button{
+    width: 10vw;
+    height: 35vw;
+    /* border-radius: 0 10px 10px 0; */
+    /* background-color: rgba(230, 230, 230, 0.5); */
+    /* backdrop-filter: blur(10px); */
+    /* color: black; */
+    /* font-weight: bold; */
+    /* font-size: 35px; */
+    /* transition: 0.3s; */
+    /* border: none; */
+    /* font-family: monospace; */
+    /* font-weight: bold; */
+    /* cursor: pointer; */
+}
+.slider .buttons{
+    position: absolute;
+    top: 38vw;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 }
