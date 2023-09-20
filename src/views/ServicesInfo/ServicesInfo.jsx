@@ -6,9 +6,8 @@ import { useEffect } from 'react'
 import garage from '../../assets/Garagee.jpg'
 import snack from '../../assets/Salchipapa.jpg'
 import masage from '../../assets/Masage.jpg'
-import Camara from '../../assets/CamaraSeca.jpeg'
 import Jacuzzi1 from '../../assets/Jacuzzi3.jpeg'
-import Poolk from '../../assets/PoolK.jpg'
+// import Poolk from '../../assets/PoolK.jpg'
 import Pool from '../../assets/Pool4.jpeg'
 
 
@@ -48,7 +47,7 @@ export default function ServicesInfo(){
             </div>
 
             <div className='serviceContainer'>
-                <img className='serviceImg'src={Poolk}></img>
+                <img className='serviceImg'src={Pool}></img>
                 <div className='serviceInfo'> 
                     <h1>Piscina de niños</h1>
                     
