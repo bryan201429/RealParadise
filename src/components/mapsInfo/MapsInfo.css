@@ -62,7 +62,7 @@
     margin: 0;
 }
 
-@media(max-width:900px){
+@media(max-width:1000px){
     #MapsContainer{
         height: 80vh;
         width: 100vw;
