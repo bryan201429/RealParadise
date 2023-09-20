@@ -3,6 +3,7 @@ import './ServicesInfo.css'
 import Footer from '../../components/Footer/Footer'
 import { useEffect } from 'react'
 // import { useLocation } from 'react-router-dom'
+import PoolK from '../../assets/PoolK.png'
 import garage from '../../assets/Garagee.jpg'
 import snack from '../../assets/Salchipapa.jpg'
 import masage from '../../assets/Masage.jpg'
@@ -47,7 +48,7 @@ export default function ServicesInfo(){
             </div>
 
             <div className='serviceContainer'>
-                <img className='serviceImg'src={Pool}></img>
+                <img className='serviceImg'src={PoolK}></img>
                 <div className='serviceInfo'> 
                     <h1>Piscina de niños</h1>
                     

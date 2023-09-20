@@ -6,7 +6,7 @@ import Garage from '../../assets/Garagee.jpg'
 import Masajes from '../../assets/Masajes.webp'
 import Camara from '../../assets/CamaraSeca.jpeg'
 import Jacuzzi1 from '../../assets/Jacuzzi4.jpeg'
-
+import PoolK from '../../assets/PoolK.png'
 import DetailBox from '../../components/detailBox/DetailBox'
 import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
@@ -90,7 +90,7 @@ export default function Home(){
                     </div>
                     <div className="item">
                         <div className='slideInfo'>PISCINA PARA NIÑOS</div>
-                        <img src={Pool1} alt=""/>
+                        <img src={PoolK} alt=""/>
                     </div>
                     <div className="item">
                         <div className='slideInfo'>CAMARAS DE VAPOR/SECO</div>
