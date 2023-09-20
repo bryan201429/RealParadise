@@ -7,7 +7,7 @@ import garage from '../../assets/Garagee.jpg'
 import snack from '../../assets/Salchipapa.jpg'
 import masage from '../../assets/Masage.jpg'
 import Jacuzzi1 from '../../assets/Jacuzzi3.jpeg'
-// import Poolk from '../../assets/PoolK.jpg'
+
 import Pool from '../../assets/Pool4.jpeg'
 
 

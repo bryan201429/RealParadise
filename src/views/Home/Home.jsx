@@ -6,7 +6,7 @@ import Garage from '../../assets/Garagee.jpg'
 import Masajes from '../../assets/Masajes.webp'
 import Camara from '../../assets/CamaraSeca.jpeg'
 import Jacuzzi1 from '../../assets/Jacuzzi4.jpeg'
-// import Poolk from '../../assets/PoolK.jpg'
+
 import DetailBox from '../../components/detailBox/DetailBox'
 import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
