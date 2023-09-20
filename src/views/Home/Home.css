@@ -121,7 +121,7 @@
     padding: 0;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) and (orientation: portrait){
     .slider{
         height: 100vw;
     }

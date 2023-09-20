@@ -96,7 +96,7 @@
     text-decoration: none;
 }
 
-@media (max-width:1000px){
+@media (max-width:1000px)and (orientation: portrait){
 
     #NavContainer{
         width: 100vw;
