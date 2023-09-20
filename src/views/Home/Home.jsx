@@ -1,16 +1,19 @@
 import './Home.css'
 import { useEffect} from 'react'
-import Principal from '../../assets/Principal.jpg'
-import Pool from '../../assets/Pool.jpg'
-import Pool2 from '../../assets/Pool2.jpg'
+import Pool1 from '../../assets/Pool1.jpeg'
 import Snack from '../../assets/Snack.webp'
 import Garage from '../../assets/Garagee.jpg'
 import Masajes from '../../assets/Masajes.webp'
+import Camara from '../../assets/CamaraSeca.jpeg'
+import Jacuzzi1 from '../../assets/Jacuzzi4.jpeg'
+import Poolk from '../../assets/PoolK.jpg'
 import DetailBox from '../../components/detailBox/DetailBox'
 import MapsInfo from '../../components/mapsInfo/MapsInfo'
 import Footer from '../../components/Footer/Footer'
 import {scroll} from 'react-scroll'
 import { useLocation } from 'react-router-dom'
+
+
 
 export default function Home(){
     const location = useLocation();
@@ -79,19 +82,19 @@ export default function Home(){
                 <div className="list">
                     <div className="item">
                         <div className='slideInfo'>PISCINA TEMPERADA</div>
-                        <img src={Principal} alt=""/>
+                        <img src={Pool1} alt=""/>
                     </div>
                     <div className="item">
                         <div className='slideInfo'>JACUZZI</div>
-                        <img src={Pool} alt=""/>
+                        <img src={Jacuzzi1} alt=""/>
                     </div>
                     <div className="item">
                         <div className='slideInfo'>PISCINA PARA NIÑOS</div>
-                        <img src={Pool2} alt=""/>
+                        <img src={Poolk} alt=""/>
                     </div>
                     <div className="item">
                         <div className='slideInfo'>CAMARAS DE VAPOR/SECO</div>
-                        <img src={Principal} alt=""/>
+                        <img src={Camara} alt=""/>
                     </div>
                     <div className="item">
                         <div className='slideInfo'>ESTACIONAMIENTO</div>

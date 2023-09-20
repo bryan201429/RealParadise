@@ -1,11 +1,16 @@
 import './ServicesInfo.css'
-import Pool from '../../assets/Pool.jpg'
+// import Pool from '../../assets/Pool.jpg'
 import Footer from '../../components/Footer/Footer'
 import { useEffect } from 'react'
 // import { useLocation } from 'react-router-dom'
 import garage from '../../assets/Garagee.jpg'
 import snack from '../../assets/Salchipapa.jpg'
 import masage from '../../assets/Masage.jpg'
+import Camara from '../../assets/CamaraSeca.jpeg'
+import Jacuzzi1 from '../../assets/Jacuzzi3.jpeg'
+import Poolk from '../../assets/PoolK.jpg'
+import Pool from '../../assets/Pool4.jpeg'
+
 
 export default function ServicesInfo(){
     // const location = useLocation();
@@ -39,11 +44,11 @@ export default function ServicesInfo(){
                 <div className='serviceInfoD'> 
                     <h1>Jacuzzi</h1>
                 </div>
-                <img className='serviceImgD' src={Pool}></img>
+                <img className='serviceImgD' src={Jacuzzi1}></img>
             </div>
 
             <div className='serviceContainer'>
-                <img className='serviceImg'src={Pool}></img>
+                <img className='serviceImg'src={Poolk}></img>
                 <div className='serviceInfo'> 
                     <h1>Piscina de niños</h1>
                     
